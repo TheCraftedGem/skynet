@@ -18,4 +18,8 @@ defmodule Skynet do
   def list_terminators do
     Supervisor.which_children(TerminatorSupervisor)
   end
+
+  def container(pid)
+    Map.put(%{}, pid)
+  end
 end
