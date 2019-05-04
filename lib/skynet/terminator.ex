@@ -16,6 +16,7 @@ defmodule Skynet.Terminator do
   end
 
   def handle_info(:prepare_next, state) do
+    IEx.pry
     IO.puts("Terminator Created")
     Skynet.create_terminator
     {:noreply, state}
