@@ -22,7 +22,7 @@ This will start the first terminator. I have left in messages that output to the
 
 `Termiated Survives`
 
-I left these in so that you could see when processes where being spawned or terminatedl. If you're manually testing the server via iex these can be a pain, so I recommend commenting these messages out, they're all inside the Terminator Module. 
+I left these in so that you could see when processes where being spawned or terminated. If you're manually testing the server via iex these can be a pain, so I recommend commenting these messages out, they're all inside the Terminator Module. 
 
 To See Count Of Active Terminator Processes: 
 
