@@ -1,4 +1,5 @@
 require IEx
+
 defmodule Skynet do
   alias Skynet.TerminatorSupervisor
   alias Skynet.Terminator

@@ -16,7 +16,6 @@ defmodule Skynet.MixProject do
     [
       mod: {Skynet.Application, []},
       extra_applications: [:logger]
-
     ]
   end
 
